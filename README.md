@@ -1,19 +1,24 @@
 # angular-with-webapi
 
-Backend configuration:
+I made this demo project for all developers who want to learn Angular using WebPack and ES6.
+The project covers usage of routes, services, directives, less and bootstrap.
+
+* Angular
+* Webpack
+* ES6
+* .Net Owin WebApi2
+
+# Backend configuration
 change connectionstring in Core and Api
 
+To create database
 open Package Manager console having Core selected
-To create database run
+update-database 
 
-update-database
 
-host Api
+# FrontEnd configuration
 
-FrontEnd configuration:
-change apiurl in app/config.js
+change AppDemo.WebUI\src\public\config.json accordingly
 
-Bower packages and node modules are included in case node is not installed on pc
+Read readme in WebUI folder:
 
-You can host it on a website or run it on browser from VS or run the included node server
-If you want to try the last choice please read WebUI readme for instructions
