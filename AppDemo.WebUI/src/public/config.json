@@ -1,0 +1,6 @@
+﻿{
+    "config": {
+        "apibase": "http://localhost:39127/v1/",
+        "weatherurl": "http://api.openweathermap.org/data/2.5/weather?q=Melbourne,au&APPID="
+    }
+}

@@ -1,0 +1,7 @@
+packages
+/AppDemo.WebUI/node_modules
+/AppDemo.WebUI/dist
+/AppDemo.Api/bin
+/AppDemo.Api/obj
+/AppDemo.Core/bin
+/AppDemo.Core/obj

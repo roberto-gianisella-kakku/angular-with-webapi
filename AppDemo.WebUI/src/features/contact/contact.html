@@ -1,0 +1,17 @@
+﻿<loader show="contact.showLoader"></loader>  
+<p ng-bind="::contact.greetings"></p>
+<alert show="contact.showMessage" msg="contact.apiResponse.msg" success="contact.apiResponse.isSuccess"></alert>
+<form name="contactForm" ng-submit="contact.sendRequest(contactForm.$valid)">
+    <div class="form-group">
+        Name: <input type="text" class="form-control" ng-model="contact.request.name" required />
+    </div>
+    <div class="form-group">
+        Email: <input type="email" class="form-control" ng-model="contact.request.email" required />
+    </div>
+    <div class="form-group">
+        Comment: <textarea class="form-control" ng-model="contact.request.comment" required></textarea>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary">Send</button>
+    </div>
+</form>
