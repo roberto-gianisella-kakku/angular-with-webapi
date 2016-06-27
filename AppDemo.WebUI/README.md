@@ -22,11 +22,8 @@ This workflow serves as a starting point for building Angular 1.x applications u
 > Clone/Download the repo then edit `app.js` inside [`/src/app/app.js`](/src/app/app.js)
 
 ```bash
-# clone our repo
-$ git clone https://github.com/preboot/angular-webpack.git my-app
 
-# change directory to your app
-$ cd my-app
+# change directory to this folder
 
 # install the dependencies with npm
 $ npm install
