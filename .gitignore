@@ -7,3 +7,7 @@ packages
 /AppDemo.Core/obj
 /AppDemo.Core.Tests/bin/Debug
 /AppDemo.Core.Tests/obj/Debug
+/.vs
+/AppDemo.Api/.vs
+/AppDemo.Core/.vs
+/AppDemo.Api/*.user
