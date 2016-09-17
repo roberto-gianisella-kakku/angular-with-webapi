@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AppDemo.Core.DataTransferObject
+namespace AppDemo.Core.DataTransferObjects.Request
 {
-    public class ContactRequestDataTransferObject
+    public class ContactRequestData
     {
         [Required]
         [MaxLength(50)]

@@ -4,15 +4,16 @@ namespace AppDemo.Core.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using AppDemo.Core.Data;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<AppDemo.Core.AppDemoDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AppDemoDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(AppDemo.Core.AppDemoDbContext context)
+        protected override void Seed(AppDemoDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

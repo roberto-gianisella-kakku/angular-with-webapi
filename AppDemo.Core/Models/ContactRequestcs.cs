@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AppDemo.Core.Model
+namespace AppDemo.Core.Models
 {
     public class ContactRequest
     {

@@ -12,12 +12,6 @@ namespace AppDemo.Api.Controllers
 {
     public class BaseController : ApiController
     {
-        public AppDemoDbContext Db
-        {
-            get
-            {
-                return Request.GetOwinContext().Get<AppDemoDbContext>();
-            }
-        }
+        
     }
 }

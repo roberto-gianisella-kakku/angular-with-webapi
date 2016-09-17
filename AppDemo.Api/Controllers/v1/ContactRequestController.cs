@@ -5,8 +5,9 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using AppDemo.Core.DataTransferObject;
-using AppDemo.Core.BusinessLayer;
+using AppDemo.Core.DataTransferObjects;
+using AppDemo.Core.Abstract.Services;
+using AppDemo.Core.DataTransferObjects.Request;
 
 namespace AppDemo.Api.Controllers
 {
@@ -14,17 +15,22 @@ namespace AppDemo.Api.Controllers
     [RoutePrefix("v1/contact")]
     public class ContactRequestController : BaseController
     {
-        
+        IContactRequestService _ctcServ;
+
+        public ContactRequestController(IContactRequestService ctcServ)
+        {
+            _ctcServ = ctcServ;
+        }
+
         [HttpPost]
         [Route("request")]
-        public async Task<IHttpActionResult> ContactRequest(ContactRequestDataTransferObject dto)
+        public async Task<IHttpActionResult> ContactRequest(ContactRequestData dto)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    ContactRequestBusinessLogic bl = new ContactRequestBusinessLogic(this.Db);
-                    return Ok(await bl.Create(dto));
+                    return Ok(await _ctcServ.CreateAsync(dto));
                 }
                 catch (Exception ex)
                 {
