@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDemo.Core", "AppDemo.Core\AppDemo.Core.csproj", "{6A1374E8-46C5-4560-ADF1-0F26F96D7158}"
 EndProject
@@ -28,6 +28,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AppDemo.WebUI", "AppDemo.We
 		SlnRelativePath = "AppDemo.WebUI\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDemo.Core.Tests", "AppDemo.Core.Tests\AppDemo.Core.Tests.csproj", "{2E87AE23-9667-472C-A594-BE7046A6E9AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{0876DECA-A7B7-4C58-ADFE-9653DBFCEF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0876DECA-A7B7-4C58-ADFE-9653DBFCEF3F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{0876DECA-A7B7-4C58-ADFE-9653DBFCEF3F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2E87AE23-9667-472C-A594-BE7046A6E9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E87AE23-9667-472C-A594-BE7046A6E9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E87AE23-9667-472C-A594-BE7046A6E9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E87AE23-9667-472C-A594-BE7046A6E9AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,3 +5,5 @@ packages
 /AppDemo.Api/obj
 /AppDemo.Core/bin
 /AppDemo.Core/obj
+/AppDemo.Core.Tests/bin/Debug
+/AppDemo.Core.Tests/obj/Debug
