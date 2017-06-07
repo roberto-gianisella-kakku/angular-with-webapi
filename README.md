@@ -22,5 +22,4 @@ change AppDemo.WebUI\src\public\config.json accordingly
 
 Read readme in WebUI folder:
 
-test
 
